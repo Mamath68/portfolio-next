@@ -26,7 +26,7 @@ const ServiceCard = ({ num, title }: Props) => {
       <p className="text-white text-[15px] opacity-60 mt-[0.8rem]">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus neque modi dolorem reiciendis velit soluta saepe! Quidem ipsam aperiam, eos aliquid officiis dolorem alias pariatur maiores autem ab esse eaque.
       </p>
-      p.text-white
+      <p className="text-white text-[1.6rem] font-bold absolute top-3 right-4">{num}</p>
     </div>
   )
 }

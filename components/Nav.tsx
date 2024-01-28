@@ -27,8 +27,7 @@ const Nav = ({ openNav }: Props) => {
         <div className={`fixed w-[100%] ${stickyStyle} transition-all duration-300 z-[1000]`}>
             <div className="flex items-center h-[12vh] justify-between w-[80%] mx-auto">
                 <div className="font-logo text-white text-[18px]">
-                    <span className="text-[30px] md:text-[40px] text-yellow-400">WD</span>
-                    Warriors
+                    <span className="text-[30px] md:text-[40px] text-yellow-400">MS</span>
                 </div>
                 <ul className='md:flex hidden items-center space-x-10'>
                     <li>
