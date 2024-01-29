@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <div className="font-logo text-white text-[18px]">
                         <span className="text-[30px] md:text-[40px] text-yellow-400">MS</span>
-                        
+
                     </div>
                     <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellat rem unde nesciunt minus tenetur? Dolore, hic architecto quos, magni labore voluptate saepe ipsam officiis nulla quia quisquam nihil similique.

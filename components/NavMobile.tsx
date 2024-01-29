@@ -9,7 +9,7 @@ interface Props {
 
 const NavMobile = ({ closeNav, showNav }: Props) => {
 
-     const navOpenStyle = showNav ? 'translate-x-0' : 'translate-x-[-100%]'
+    const navOpenStyle = showNav ? 'translate-x-0' : 'translate-x-[-100%]'
 
     return (
         <div>
@@ -18,19 +18,22 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
             </div>
             <ul className={`text-white ${navOpenStyle} fixed flex items-center flex-col justify-center h-[100%] transform transition-all duration-300 delay-300 w-[60%] bg-red-600 space-y-14 z-[10006]`}>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" href="#">Home</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#home">Home</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" href="#">About</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#about">About</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" href="#">Services</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#service">Services</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" href="#">Blog</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#skill">Skills</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" href="#">Contact</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#project">Projects</a>
+                </li>
+                <li>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#contact">Contact</a>
                 </li>
                 <XMarkIcon onClick={closeNav} className='absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white' />
             </ul>

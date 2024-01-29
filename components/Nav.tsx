@@ -31,19 +31,22 @@ const Nav = ({ openNav }: Props) => {
                 </div>
                 <ul className='md:flex hidden items-center space-x-10'>
                     <li>
-                        <a className='nav__link' href="#">Home</a>
+                        <a className='nav__link' href="#home">Home</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#">About</a>
+                        <a className='nav__link' href="#about">About</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#">Services</a>
+                        <a className='nav__link' href="#service">Services</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#">Blog</a>
+                        <a className='nav__link' href="#skill">Skills</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#">Contact</a>
+                        <a className='nav__link' href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a className='nav__link' href="#contact">Contact</a>
                     </li>
                 </ul>
                 <Bars3CenterLeftIcon onClick={openNav} className="w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180" />

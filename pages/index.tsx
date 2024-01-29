@@ -5,7 +5,7 @@ import NavMobile from '@/components/NavMobile';
 import Services from '@/components/Services';
 import Skills from '@/components/Skills';
 import Project from '@/components/Project';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import AOS from 'aos';
@@ -28,8 +28,7 @@ const HomePage = () => {
       once: true,
       anchorPlacement: 'top-bottom'
     })
-  },[])
-
+  }, [])
 
   return (
     <div className='overflow-hidden'>
@@ -37,10 +36,10 @@ const HomePage = () => {
       <Nav openNav={showNavHandler} />
       <Hero />
       <AboutMe />
-      <Services />
+      <Services/>
       <Skills />
-      <Project />
-      <Contact />
+      <Project/>
+      <Contact/>
       <Footer />
     </div>
   )
