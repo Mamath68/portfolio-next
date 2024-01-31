@@ -5,7 +5,7 @@ const Project = () => {
     return (
         <div id="project" className="pt-[7rem] pb-[5rem] bg-gray-900">
             <div className="text-center">
-                <p className="heading__mini">Mes recents projetsw</p>
+                <p className="heading__mini">Mes projets récents</p>
                 <h1 className="heading__primary">
                     Mes meilleurs <span className="text-yellow-300">Projets</span>
                 </h1>
