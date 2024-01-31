@@ -45,9 +45,9 @@ const Project = () => {
                 tech1="HTML"
                 tech2="CSS"
                 tech3="PHP"
-                tech4="API YGOPRODECK"
+                tech4="API Yu-gi-oh"
                 tech5="Bootstrap"
-                tech6="Base de données"
+                tech6="BDD mysql"
                 image="/images/yugioh.jpeg"
             />
             <ProjectCard
@@ -59,7 +59,7 @@ const Project = () => {
                 tech2="CSS"
                 tech3="Bootstrap"
                 tech4="PHP"
-                tech5="Base de données"
+                tech5="BDD Mysql"
                 image="/images/cinema.jpg"
             />
             <ProjectCard

@@ -13,11 +13,11 @@ const Contact = () => {
                     <p className="text-[15px] text-white mt-[1rem] opacity-75">
                         Vous pouvez utiliser ce formulaire pour me contacter, ou me joindre par telephone ou email.
                     </p>
-                    <h1 className="flex items-center space-x-2 mb-[2rem] text-[30px] text-yellow-300 underline font-bold">
+                    <h1 className="flex items-center space-x-2 mb-[2rem] mt-[2rem] text-[20px] text-yellow-300 underline font-bold">
                         <PhoneIcon className="w-[1rem] h-[1rem] " />
                         <a href="tel:+33669142804">+33 6 69 14 28 04</a>
                     </h1>
-                    <h1 className="flex items-center space-x-2 mb-[2rem] text-[30px] text-yellow-300 underline font-bold">
+                    <h1 className="flex items-center space-x-2 mb-[2rem] text-[20px] text-yellow-300 underline font-bold">
                         <EnvelopeIcon className="w-[1rem] h-[1rem]" />
                         <a href="mailto:mathieu.stamm@gmail.com">mathieu.stamm@gmail.com</a>
                     </h1>

@@ -11,7 +11,7 @@ const Skills = () => {
                         Découvrez mes <span className="text-yellow-300">Compétences</span>
                     </h1>
                     <p className="text-white text-[15px] mb-[1.5rem] opacity-70 mt-[1.5rem]">
-                        Voici les langages et frameworks que je sais utiliser.
+                        Voici les langages, frameworks et technologies que je sais utiliser.
                     </p>
                 </div>
                 <div className="col-span-4">
