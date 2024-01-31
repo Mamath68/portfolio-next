@@ -21,16 +21,13 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
                     <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#home">Home</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#about">About</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#about">A Propos</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#service">Services</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#skill">Compétences</a>
                 </li>
                 <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#skill">Skills</a>
-                </li>
-                <li>
-                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#project">Projects</a>
+                    <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#project">Mes Projets</a>
                 </li>
                 <li>
                     <a className="nav__link text-[25px] sm:text-[30px]" onClick={closeNav} href="#contact">Contact</a>

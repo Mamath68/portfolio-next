@@ -34,16 +34,13 @@ const Nav = ({ openNav }: Props) => {
                         <a className='nav__link' href="#home">Home</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#about">About</a>
+                        <a className='nav__link' href="#about">A Propos</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#service">Services</a>
+                        <a className='nav__link' href="#skill">Compétences</a>
                     </li>
                     <li>
-                        <a className='nav__link' href="#skill">Skills</a>
-                    </li>
-                    <li>
-                        <a className='nav__link' href="#project">Projects</a>
+                        <a className='nav__link' href="#project">Mes Projets</a>
                     </li>
                     <li>
                         <a className='nav__link' href="#contact">Contact</a>

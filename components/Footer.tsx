@@ -11,7 +11,7 @@ const Footer = () => {
 
                     </div>
                     <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellat rem unde nesciunt minus tenetur? Dolore, hic architecto quos, magni labore voluptate saepe ipsam officiis nulla quia quisquam nihil similique.
+                        Jeune Développeur fraichement Diplômé, je suis à la recherche d&apos;un premier emploi afin de faire mes armes et gagner de l&apos;expérience. Titulaire d&apos;un titre de niveau 5 DWWM(Développeur web et web-mobile), je suis motivé, mobile et près à me mettre au travail.
                     </h1>
                     <p className="mt-[1.3rem] text-yellow-300 underline font-semibold">
                         <a href="mailto:mathieu.stamm@gmail.com">mathieu.stamm@gmail.com</a>
@@ -19,23 +19,23 @@ const Footer = () => {
                 </div>
                 <div className="md:mx-0">
                     <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">
-                        Quick Link
+                        Lien Rapides
                     </h1>
                     <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300">
-                        About
+                        A Propos
                     </p>
                     <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300">
-                        Services
+                        Compétences
                     </p>
                     <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300">
-                        Project
+                        Mes Projets
                     </p>
                     <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300">
                         Contact
                     </p>
                 </div>
                 <div className="lg:mx-auto">
-                    <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">Addresse</h1>
+                    <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">Adresse</h1>
                     <div className="flex items-center mt-[1rem] space-x-2 ">
                         <MapIcon className="w-[1rem] h-[1rem] text-yellow-300" />
                         <p className="text-[17px] font-normal text-white opacity-75">3 rue Maurice Ravel 68200 Mulhouse</p>

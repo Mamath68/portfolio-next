@@ -1,20 +1,25 @@
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import React from 'react';
 
 const Contact = () => {
     return (
         <div id="contact" className='pt-[7rem] pb-[5rem] bg-gray-900'>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto">
                 <div>
-                    <p className="heading__mini">Get in Touch</p>
+                    <p className="heading__mini">Contactez moi</p>
                     <h1 className="heading__primary">
-                        Let&apos;s make your <span className="text-yellow-400">Brand</span> brillant
+                        Commençons notre <span className="text-yellow-400">Légendaire</span> Relation
                     </h1>
                     <p className="text-[15px] text-white mt-[1rem] opacity-75">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur in deleniti laudantium a iste adipisci unde porro? A, architecto velit quam ab, enim voluptatibus blanditiis, in praesentium aut cum maxime!
+                        Vous pouvez utiliser ce formulaire pour me contacter, ou me joindre par telephone ou email.
                     </p>
-                    <h1 className="mt-[2rem] mb-[2rem] text-[30px] text-yellow-300 underline font-bold">
+                    <h1 className="flex items-center space-x-2 mb-[2rem] text-[30px] text-yellow-300 underline font-bold">
+                        <PhoneIcon className="w-[1rem] h-[1rem] " />
                         <a href="tel:+33669142804">+33 6 69 14 28 04</a>
+                    </h1>
+                    <h1 className="flex items-center space-x-2 mb-[2rem] text-[30px] text-yellow-300 underline font-bold">
+                        <EnvelopeIcon className="w-[1rem] h-[1rem]" />
+                        <a href="mailto:mathieu.stamm@gmail.com">mathieu.stamm@gmail.com</a>
                     </h1>
                 </div>
                 <form action="https://getform.io/f/a8940881-04f5-47e6-93bf-bfde0fc31015" method="post">
@@ -51,7 +56,7 @@ const Contact = () => {
                             rows={4}
                         >
                         </textarea>
-                        <button type="submit" className="py-[0.7rem] mt-[1.5rem] mb-[1.5rem] w-full outline-none text-white bg-blue-700 hover:bg-blue-800 rounded-md px-4">Send</button>
+                        <button type="submit" className="py-[0.7rem] mt-[1.5rem] mb-[1.5rem] w-full outline-none text-white bg-blue-700 hover:bg-blue-800 rounded-md px-4">Envoyer le message</button>
                     </div>
                 </form>
             </div>
