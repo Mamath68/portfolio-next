@@ -1,8 +1,35 @@
-import { CalendarIcon, CheckIcon, EnvelopeIcon, MapIcon } from '@heroicons/react/24/outline'
-import React from 'react'
+import React from 'react';
+import { CalendarIcon, MapIcon, EnvelopeIcon, CheckIcon } from '@heroicons/react/24/outline';
 
-const AboutMe = () => {
+interface AboutMeProps {
+  dateOfBirth: string;
+}
+
+class MyAge extends React.Component<AboutMeProps> {
+  calculateAge = (dateOfBirth: string, currentDate: string) => {
+    const birthDate = new Date(dateOfBirth);
+    const today = new Date(currentDate);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  };
+
+  render() {
+    const { dateOfBirth } = this.props;
+    const age = this.calculateAge(dateOfBirth, new Date().toISOString().split('T')[0]);
+
+    return (
+      <p className="text-white text-[18px]">{dateOfBirth} ({age} ans)</p>
+    );
+  }
+}
+
+const AboutMe: React.FC = () => {
   const id = "about";
+  const dateOfBirth = "12/02/1998";
 
   return (
     <div id={id} className="mt-[-4rem] bg-black pb-[3rem]">
@@ -15,7 +42,7 @@ const AboutMe = () => {
           <div className="space-y-3 mt-[2rem]">
             <div className="flex items-end space-x-4">
               <CalendarIcon className="w-[2rem] h-[2rem] text-yellow-400" />
-              <p className="text-white text-[18px]">12/02/1998(25 ans)</p>
+              <MyAge dateOfBirth={dateOfBirth} />
             </div>
             <div data-aos-delay="200" className="flex items-end space-x-4">
               <MapIcon className="w-[2rem] h-[2rem] text-yellow-400" />

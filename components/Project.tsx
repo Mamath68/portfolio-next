@@ -45,7 +45,8 @@ const Project = () => {
                 tech1="HTML"
                 tech2="CSS"
                 tech3="PHP"
-                tech4="API Yu-gi-oh"
+                tech4="YGOPRODeck"
+                tech4Lien='https://ygoprodeck.com/api-guide/'
                 tech5="Bootstrap"
                 tech6="BDD mysql"
                 image="/images/yugioh.jpeg"
