@@ -16,7 +16,9 @@ const Project = () => {
                 code="https://github.com/Mamath68/Simpsons-V1"
                 demo="https://simpsons-v1.netlify.app/"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 image="/images/simpson.png"
             />
             <ProjectCard
@@ -25,7 +27,9 @@ const Project = () => {
                 code="https://github.com/Mamath68/Simpsons-V2"
                 demo="https://simpson-v2.netlify.app/"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 image="/images/simpson.png"
             />
             <ProjectCard
@@ -34,8 +38,11 @@ const Project = () => {
                 code="https://github.com/Mamath68/Landing-Page"
                 demo="https://landing-page-ms.netlify.app/"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 tech3="JavaScript"
+                tech3Lien='https://developer.mozilla.org/fr/docs/Web/JavaScript'
                 image="/images/landingPage.jpg"
             />
             <ProjectCard
@@ -43,12 +50,17 @@ const Project = () => {
                 description="Il s'agit de mon projet de fin de formation. c'est un site sur l'univers de yugioh, utilisant l'api YGOProdeck afin de récupérer les données des cartes du jeu, et d'avoir le détail total des cartes. ce projet est également un forum. Il a été codé avec un framework maison distribué par le centre de formation. "
                 code="https://github.com/Mamath68/ProjetElan2023"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 tech3="PHP"
+                tech3Lien='https://www.php.net/manual/fr/intro-whatis.php'
                 tech4="YGOPRODeck"
                 tech4Lien='https://ygoprodeck.com/api-guide/'
                 tech5="Bootstrap"
-                tech6="BDD mysql"
+                tech5Lien='https://getbootstrap.com/docs/5.3/getting-started/introduction/'
+                tech6="MySQL"
+                tech6Lien='https://sql.sh/sgbd/mysql'
                 image="/images/yugioh.jpeg"
             />
             <ProjectCard
@@ -57,10 +69,15 @@ const Project = () => {
                 De même que pour le projet Yu-Gi-Oh!, il est codé en framework maison."
                 code="https://github.com/Mamath68/Cinema_POO/tree/version-Framework"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 tech3="Bootstrap"
+                tech3Lien='https://getbootstrap.com/docs/5.3/getting-started/introduction/'
                 tech4="PHP"
-                tech5="BDD Mysql"
+                tech4Lien='https://www.php.net/manual/fr/intro-whatis.php'
+                tech5="MySQL"
+                tech5Lien="https://sql.sh/sgbd/mysql"
                 image="/images/cinema.jpg"
             />
             <ProjectCard
@@ -69,9 +86,13 @@ const Project = () => {
                 code="https://github.com/Mamath68/D.O.M_JS"
                 demo="https://d-o-m-js.netlify.app/"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 tech3="JavaScript"
+                tech3Lien='https://developer.mozilla.org/fr/docs/Web/JavaScript'
                 tech4="Bootstrap"
+                tech4Lien='https://getbootstrap.com/docs/5.3/getting-started/introduction/'
                 image="/images/domjs.jpg"
             />
             <ProjectCard
@@ -79,9 +100,12 @@ const Project = () => {
                 description="C'est une base de E-commerce fait en php."
                 code="https://github.com/Mamath68/Appli_PHP"
                 tech1="HTML"
+                tech1Lien='https://developer.mozilla.org/fr/docs/Web/HTML'
                 tech2="CSS"
+                tech2Lien='https://developer.mozilla.org/fr/docs/Web/CSS'
                 tech3="PHP"
                 tech4="Bootstrap"
+                tech4Lien='https://getbootstrap.com/docs/5.3/getting-started/introduction/'
                 image="/images/appliphp.jpeg"
             />
         </div>
