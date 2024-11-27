@@ -1,4 +1,4 @@
-import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import {EnvelopeIcon, PhoneIcon} from '@heroicons/react/24/outline';
 import React from 'react';
 
 const Contact = () => {
@@ -14,11 +14,11 @@ const Contact = () => {
                         Vous pouvez utiliser ce formulaire pour me contacter, ou me joindre par telephone ou email.
                     </p>
                     <h1 className="flex items-center space-x-2 mb-[2rem] mt-[2rem] text-[20px] text-yellow-300 underline font-bold">
-                        <PhoneIcon className="w-[1rem] h-[1rem] " />
+                        <PhoneIcon className="w-[1rem] h-[1rem] "/>
                         <a href="tel:+33669142804">+33 6 69 14 28 04</a>
                     </h1>
                     <h1 className="flex items-center space-x-2 mb-[2rem] text-[20px] text-yellow-300 underline font-bold">
-                        <EnvelopeIcon className="w-[1rem] h-[1rem]" />
+                        <EnvelopeIcon className="w-[1rem] h-[1rem]"/>
                         <a href="mailto:mathieu.stamm@gmail.com">mathieu.stamm@gmail.com</a>
                     </h1>
                 </div>
@@ -56,7 +56,10 @@ const Contact = () => {
                             rows={4}
                         >
                         </textarea>
-                        <button type="submit" className="py-[0.7rem] mt-[1.5rem] mb-[1.5rem] w-full outline-none text-white bg-blue-700 hover:bg-blue-800 rounded-md px-4">Envoyer le message</button>
+                        <button type="submit"
+                                className="py-[0.7rem] mt-[1.5rem] mb-[1.5rem] w-full outline-none text-white bg-blue-700 hover:bg-blue-800 rounded-md px-4">Envoyer
+                            le message
+                        </button>
                     </div>
                 </form>
             </div>

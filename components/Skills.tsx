@@ -15,7 +15,8 @@ const Skills = () => {
                     </p>
                 </div>
                 <div className="col-span-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem] items-center">
+                    <div
+                        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem] items-center">
                         <div data-aos="fade-up" data-aos-anchor-placement="top-center">
                             <SkillCard
                                 title="HTML"

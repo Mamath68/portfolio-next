@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import TypeWriteEffect from './Helper/TypeWriteEffect';
 import Image from 'next/image';
@@ -14,14 +13,20 @@ const Hero = () => {
                             <h1 className="xl:text-[45px] lg:text-[40px] sm:text-[30px] text-[20px] font-semibold leading-[2.6rem] text-white">
                                 Bonjours, je suis <span className='text-yellow-300'>Mathieu</span>
                             </h1>
-                            <TypeWriteEffect />
+                            <TypeWriteEffect/>
                         </div>
-                        <p data-aos="fade-up" data-aos-delay="800" className="mt-[1.2rem] text-[15px] md:text-[17px]  text-[#c4cfde]">Jeune Développeur fraichement Diplômé, je suis à la recherche d'un premier emploi afin de faire mes armes et gagner de l'expérience. Titulaire d'un titre de niveau 5 DWWM(Développeur web et web-mobile), je suis motivé, mobile et près à me mettre au travail.</p>
+                        <p data-aos="fade-up" data-aos-delay="800"
+                           className="mt-[1.2rem] text-[15px] md:text-[17px]  text-[#c4cfde]">Jeune Développeur
+                            fraichement Diplômé, je suis à la recherche d&apos;un premier emploi afin de faire mes armes et
+                            gagner de l&apos;expérience. Titulaire d&apos;un titre de niveau 5 DWWM(Développeur web et
+                            web-mobile), je suis motivé, mobile et près à me mettre au travail.</p>
                         <div className="mt-[2rem] flex items-center space-x-6">
-                            <button data-aos="zoom-in" data-aos-delay="1200" type="button" className="relative flex h-[50px] w-40 items-center justify-center font-semibold overflow-hidden bg-red-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-600 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
+                            <button data-aos="zoom-in" data-aos-delay="1200" type="button"
+                                    className="relative flex h-[50px] w-40 items-center justify-center font-semibold overflow-hidden bg-red-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-600 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
                                 <span className="relative z-10"> <a href="#contact">Contact Me</a> </span>
                             </button>
-                            <button data-aos="zoom-out " data-aos-delay="1000" type="button" className="before:ease relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180" >
+                            <button data-aos="zoom-out " data-aos-delay="1000" type="button"
+                                    className="before:ease relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180">
                                 <span className="relative z-10">
                                     <a href="/cv.pdf" download="cv_mathieu_stamm.pdf">Download CV</a>
                                 </span>
@@ -29,7 +34,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="2000" className="hidden md:block">
-                        <Image src="/images/hero2.png" alt="hero" width={600} height={500} className="object-contain" />
+                        <Image src="/images/hero2.png" alt="hero" width={600} height={500} className="object-contain"/>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,12 @@
-import { Bars3CenterLeftIcon } from "@heroicons/react/24/outline";
-import React, { useEffect, useState } from 'react';
+import {Bars3CenterLeftIcon} from "@heroicons/react/24/outline";
+import React, {useEffect, useState} from 'react';
 
 interface Props {
     openNav: () => void
 }
 
 
-const Nav = ({ openNav }: Props) => {
+const Nav = ({openNav}: Props) => {
 
     const [navSticky, setNavSticky] = useState(false)
 
@@ -46,7 +46,8 @@ const Nav = ({ openNav }: Props) => {
                         <a className='nav__link' href="#contact">Contact</a>
                     </li>
                 </ul>
-                <Bars3CenterLeftIcon onClick={openNav} className="w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180" />
+                <Bars3CenterLeftIcon onClick={openNav}
+                                        className="w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180"/>
             </div>
         </div>
     )
