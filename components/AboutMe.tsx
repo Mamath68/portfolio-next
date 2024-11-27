@@ -7,8 +7,11 @@ interface AboutMeProps {
 
 class MyAge extends React.Component<AboutMeProps> {
   calculateAge = (dateOfBirth: string, currentDate: string) => {
-    const birthDate = new Date(dateOfBirth);
+    // Convertir la date de naissance au bon format YYYY-MM-DD
+    const [day, month, year] = dateOfBirth.split('/');
+    const birthDate = new Date(`${year}-${month}-${day}`);
     const today = new Date(currentDate);
+
     let age = today.getFullYear() - birthDate.getFullYear();
     const monthDiff = today.getMonth() - birthDate.getMonth();
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
@@ -26,6 +29,7 @@ class MyAge extends React.Component<AboutMeProps> {
     );
   }
 }
+
 
 const AboutMe: React.FC = () => {
   const id = "about";
